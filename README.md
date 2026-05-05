@@ -1,5 +1,11 @@
 # Rust Practice: Python -> Rust + Frontier Engineer Roadmap
 
+## Engineering Day book May 5th:
+
+Recently talking to engineers at Exa and observing Codex, xAI (Technical Job description), and my best engineering friends it seems to me that Rust has been growing. To address this concern I'd like to understand it's design opinions by doing it myself and adding it to my skill portfolio.
+
+## Overview
+
 This repo is a focused training track to move from strong Python skills to production-grade Rust engineering expected at top companies.
 
 ## 1) Core Rust Concepts (Coming from Python)
