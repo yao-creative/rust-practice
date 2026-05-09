@@ -6,16 +6,16 @@
 ## Exercises
 - [x] Install Rust toolchain with `rustup`.
 - [x] Add components: `clippy`, `rustfmt`.
-- [ ] Create a workspace with crates: `core`, `app`, `integration_tests`.
-- [ ] Add CI checks for:
-  - [ ] `cargo fmt --all -- --check`
-  - [ ] `cargo clippy --all-targets --all-features -- -D warnings`
-  - [ ] `cargo test --all`
+- [x] Create a workspace with crates: `core`, `app`, `integration_tests`.
+- [x] Add CI checks for:
+  - [x] `cargo fmt --all -- --check`
+  - [x] `cargo clippy --all-targets --all-features -- -D warnings`
+  - [x] `cargo test --all`
 
 ## Done When
-- [ ] CI enforces quality gates on every commit.
+- [x] CI enforces quality gates on every commit.
 
 ## Evidence
 - PR:
-- CI run:
-- Notes:
+- CI run: `.github/workflows/ci.yml` (`push` on all branches + `pull_request`).
+- Notes: Workspace root `Cargo.toml` with members `crates/core`, `crates/app`, `crates/integration_tests`. Local validation run completed for `fmt`, `clippy`, and `test`.
