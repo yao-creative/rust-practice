@@ -4,8 +4,8 @@
 - Establish reproducible tooling and CI guardrails.
 
 ## Exercises
-- [ ] Install Rust toolchain with `rustup`.
-- [ ] Add components: `clippy`, `rustfmt`.
+- [x] Install Rust toolchain with `rustup`.
+- [x] Add components: `clippy`, `rustfmt`.
 - [ ] Create a workspace with crates: `core`, `app`, `integration_tests`.
 - [ ] Add CI checks for:
   - [ ] `cargo fmt --all -- --check`
